@@ -168,6 +168,8 @@ h5{
          
  /* galleria */
 .grid-conteiner{
+    @media only screen and (max-width: 1000px){
+        display: none};
     display: grid;
     grid-template-rows: repeat(4, 33rem) 7rem repeat(4, 33rem) 7rem repeat(3, 33rem);
     grid-template-columns: repeat(3, auto);
@@ -201,6 +203,17 @@ h5{
     background-blend-mode: overlay;       
             }                
 
+            
+.calestita{
+    @media only screen and (min-width: 1001px){
+    display: none !important;}
+            
+            
+          }    
+.gallerypicsq {
+    width: 45%;
+    height: 45%;
+}                
 
 
 /* contacto */
@@ -224,10 +237,5 @@ h5{
     }   */
     margin-left: 30%;
 }       
-   /* .tituloscontacto{
-    font-size: x-large;
-    text-align: center;
-
-    no me cierra como queda XD
-                   } */ 
+ 
                    
