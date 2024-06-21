@@ -1,0 +1,30 @@
+
+.sectfechas{
+    display: flex;
+}
+.card{
+    margin: $margin-classic !important;
+    background-color: map-get($color, card )  !important;
+    width: $size-card;
+
+}
+
+
+.imgfechas{
+    justify-self: center;
+    align-self: center;
+    width: 20rem;
+    height: 20rem;
+    padding: $margin-px;
+}
+
+
+.chamuyo{ 
+    text-align: center;
+    margin-top: $margin-classic;
+    margin-bottom: 7rem;
+    font-family: $font-lyrics;
+    font-style: oblique;
+
+
+         }   

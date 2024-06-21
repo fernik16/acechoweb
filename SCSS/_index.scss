@@ -1,0 +1,32 @@
+@import "mixins";
+.fotosindex{
+    @media only screen and (max-width: 1200px){
+    display: none};    
+    width: 25%;
+    height: 25%;
+            }
+.fotosindex1{
+    justify-content: center;
+    @media only screen and (min-width: 1201px){
+        display: none;}
+
+    width: 33%;
+    height:33%;
+            }
+#portadaindex {
+    display: flex;
+    justify-content: center;
+    
+    img{ width: 30%;}
+            }
+#fotoportadaforasteros{
+    display: flex;
+    justify-content: center;
+    img{width: 40%;}
+                      }
+.biografia {
+    font-family: $font-bio;
+    @include tamanio-font (105%, 450)
+    // font-size:105%;
+    // font-weight: 450;
+           }   

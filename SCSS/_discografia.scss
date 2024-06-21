@@ -1,0 +1,64 @@
+.nav{
+    ul{
+        list-style: square;
+    }
+}
+.letracanciones {
+    @media only screen and (max-width: 991px){
+        text-align: end;
+        
+    }
+    font-family: $font-lyrics;
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+    border-bottom: solid 2px grey ;
+    margin:  $margin-classic;
+                }
+h2 {
+    font-family: $font-h1 ;
+    font-size: large;
+   }
+
+.navacech {   
+    color: black !important;
+    background-color: map-get($color, card )  !important;
+    border: solid 1px map-get($color, border )  !important;    
+          }       
+ .iconoredes img {   
+    width: 70px;
+    height: 70px ;
+                 }        
+.iframedisc{
+    justify-content: center;
+    margin-left: 20%;
+           }     
+.youtube {
+    width: 70%;
+    height: 20rem;
+} 
+.ytp-cued-thumbnail-overlay-image{
+    position: fixed !important;
+    justify-content: center;
+}                 
+.nombresdiscos{ 
+    font-size: x-large;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: groove $margin-px map-get($color, border ) ;
+    background-color: map-get($color, card ) ;
+    margin:  $margin-classic;
+              }  
+.discmenu{
+    position: fixed;
+         }                    
+h5{
+    font-family: $font-h1;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+  }
+h3{
+    @media only screen and (max-width: 1001px){
+        display: none !important;}
+}  

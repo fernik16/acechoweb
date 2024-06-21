@@ -1,0 +1,25 @@
+.formulario {
+    padding: 4rem;
+}
+.imgmerch{
+    padding: 5rem;
+    width: 30%;
+    height: 30%;
+}   
+.imgmerch:hover {  transform: scale(1.5,1.5);}
+
+.icnwp{
+    margin-right: 10%;
+    justify-content: end;
+} 
+.iframemap{
+    margin-top: $margin-classic;
+    justify-content: center;
+    width: 50%;
+    height: 25rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    @media only screen and (max-width: 800px){
+        height: 15rem;
+    }
+} 

@@ -1,0 +1,17 @@
+.grid-conteiner{
+    @media only screen and (max-width: 1000px){
+        display: none};
+    display: grid;
+    grid-template-rows: repeat(4, 33rem) 7rem repeat(4, 33rem) 7rem repeat(3, 33rem);
+    grid-template-columns: repeat(3, auto);
+    margin: $margin-classic;
+    justify-content: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.titulo-item{
+    align-content: center;
+    grid-column: 1/4;
+    grid-row: 33rem;
+
+}
