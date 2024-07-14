@@ -26,7 +26,6 @@
                       }
 .biografia {
     font-family: $font-bio;
-    @include tamanio-font (105%, 450)
-    // font-size:105%;
-    // font-weight: 450;
+    @include tamanio-font (120%, 450)
+
            }   

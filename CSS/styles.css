@@ -96,6 +96,12 @@ header {
 #portadaindex {
   display: flex;
   justify-content: center;
+  background-image: url(../multimedia/fuego.gif);
+  background-repeat: no-repeat ;
+  background-position-x: center;
+  background-position: center;
+  background-blend-mode: overlay;
+  
 }
 #portadaindex img {
   width: 30%;
@@ -111,7 +117,7 @@ header {
 
 .biografia {
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 105%;
+  font-size: 120%;
   font-weight: 450;
 }
 
@@ -253,7 +259,7 @@ h5 {
 }
 
 .box-tit, .titulosfechas {
-  font-size: large;
+  font-size: 200%;
   font-style: italic;
   text-align: center;
   background-color: lightsteelblue;
